@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events. - Student Event Management Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">events.</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact" class="nav-cta">Get Started</a>
+            </div>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>✨ For Students, By Students</span>
+                </div>
+                <h1 class="hero-title">
+                    Stop the chaos.<br>
+                    Start the <span class="highlight">movement.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    The student event platform that actually gets it. No more WhatsApp hell, no more confirmation calls, no more frustrated organizing committees. Just pure, seamless event magic.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn-primary">
+                        <span>Launch Your Event</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="btn-secondary">
+                        <span>See Demo</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8 14.5L14 10L8 5.5v9z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10k+</span>
+                        <span class="stat-label">Students Connected</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Events Launched</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="demo-app">
+                            <div class="app-header">
+                                <div class="app-title">Tech Fest 2024</div>
+                                <div class="app-status">Live</div>
+                            </div>
+                            <div class="event-card">
+                                <div class="event-image"></div>
+                                <div class="event-info">
+                                    <h3>Annual Tech Symposium</h3>
+                                    <p>Mar 15, 2024 • MIT Campus</p>
+                                    <div class="attendance">
+                                        <div class="avatars">
+                                            <div class="avatar"></div>
+                                            <div class="avatar"></div>
+                                            <div class="avatar"></div>
+                                        </div>
+                                        <span>247 attending</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quick-actions">
+                                <button class="action-btn">Check In</button>
+                                <button class="action-btn secondary">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <div class="problem-header">
+                <h2>The struggle is <span class="highlight-red">real</span></h2>
+                <p>We've all been there. The organizing committee stress, the participant confusion, the endless back-and-forth.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">📱</div>
+                    <h3>WhatsApp Chaos</h3>
+                    <p>Google Forms links floating in group chats, lost in the endless scroll of memes and assignments.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📞</div>
+                    <h3>Confirmation Calls</h3>
+                    <p>"Hey, did you actually register?" Times that by 200 participants. Your organizing committee is exhausted.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📊</div>
+                    <h3>Spreadsheet Hell</h3>
+                    <p>Data scattered across multiple sheets, duplicates everywhere, and half the info is incomplete.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">😤</div>
+                    <h3>Frustrated Everyone</h3>
+                    <p>Organizers are stressed, participants are confused, and the event hasn't even started yet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2>Meet events.<br>Your new best friend.</h2>
+                    <p>We built the platform we wish we had in college. One place for everything event-related, designed by students who actually understand the chaos.</p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <div>
+                                <h4>Instant Registration</h4>
+                                <p>Beautiful forms that actually work on mobile</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <div>
+                                <h4>Smart Check-ins</h4>
+                                <p>QR codes, real-time attendance, zero hassle</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📱</div>
+                            <div>
+                                <h4>Social Integration</h4>
+                                <p>Share anywhere, track everywhere</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📈</div>
+                            <div>
+                                <h4>Real-time Analytics</h4>
+                                <p>Know what's working, fix what's not</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-visual">
+                    <div class="dashboard-mockup">
+                        <div class="dashboard-header">
+                            <h3>Event Dashboard</h3>
+                            <div class="dashboard-nav">
+                                <span class="nav-item active">Overview</span>
+                                <span class="nav-item">Registrations</span>
+                                <span class="nav-item">Analytics</span>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="metric-cards">
+                                <div class="metric-card">
+                                    <div class="metric-value">247</div>
+                                    <div class="metric-label">Registered</div>
+                                    <div class="metric-change up">+23%</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-value">89%</div>
+                                    <div class="metric-label">Attendance Rate</div>
+                                    <div class="metric-change up">+5%</div>
+                                </div>
+                            </div>
+                            <div class="chart-area">
+                                <div class="chart-placeholder">
+                                    <div class="chart-bars">
+                                        <div class="bar" style="height: 40%"></div>
+                                        <div class="bar" style="height: 70%"></div>
+                                        <div class="bar" style="height: 55%"></div>
+                                        <div class="bar" style="height: 90%"></div>
+                                        <div class="bar" style="height: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-header">
+                <h2>Built for the <span class="highlight">Gen Z</span> way</h2>
+                <p>Fast, intuitive, and designed for how students actually work.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card large">
+                    <div class="feature-content">
+                        <h3>Never Shy, Never Sorry</h3>
+                        <p>Bold events deserve bold tools. Create experiences that students actually want to attend.</p>
+                        <ul>
+                            <li>Customizable event pages</li>
+                            <li>Social media integration</li>
+                            <li>Real-time updates</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="event-preview">
+                            <div class="event-header">
+                                <div class="event-title">Spring Fest 2024</div>
+                                <div class="event-date">Apr 20-22</div>
+                            </div>
+                            <div class="event-image-placeholder"></div>
+                            <div class="event-actions">
+                                <button class="register-btn">Register Now</button>
+                                <button class="share-btn">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🚀</div>
+                    <h3>Launch in Minutes</h3>
+                    <p>From idea to live event in under 10 minutes. No kidding.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">💫</div>
+                    <h3>Zero Learning Curve</h3>
+                    <p>If you can use Instagram, you can use events. It's that simple.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🔥</div>
+                    <h3>Actually Free</h3>
+                    <p>Not "free trial" or "freemium". Just free. For students, always.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Because waiting is not in our vocabulary. Everything loads instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="social-header">
+                <h2>Loved by students everywhere</h2>
+                <p>From small college fests to massive university events</p>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Finally, an event platform that doesn't make me want to throw my laptop out the window. events. is what we've been waiting for."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <div class="author-name">Priya Sharma</div>
+                            <div class="author-role">Cultural Secretary, IIT Delhi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Organized our biggest hackathon yet with events. 500+ participants, zero chaos. My organizing committee actually had fun!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <div class="author-name">Rahul Mehta</div>
+                            <div class="author-role">Tech Lead, VIT Vellore</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The check-in process was so smooth, people thought we hired a professional event company. Nope, just events. being amazing."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <div class="author-name">Ananya Gupta</div>
+                            <div class="author-role">Event Coordinator, BITS Pilani</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to revolutionize your events?</h2>
+                <p>Join thousands of students who've already made the switch to stress-free event management.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary large">
+                        <span>Start Your First Event</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12h14m-7-7l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="btn-secondary large">
+                        <span>Watch Demo</span>
+                    </button>
+                </div>
+                <div class="cta-note">
+                    <p>✨ Free forever for students • No credit card required • Setup in 5 minutes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-text">events.</div>
+                    <p>The student event platform that actually gets it.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.163-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.748-1.378 0 0-.605 2.323-.752 2.88-.271 1.026-1.02 2.32-1.525 3.1 1.145.35 2.364.535 3.649.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#">Features</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Demo</a>
+                        <a href="#">Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">Guides</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Community</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 events. Made with ❤️ for students, by students.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
